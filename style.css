@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #282B22;
+}
+ul{
+    list-style: none;
+}
+.novbar{
+    display: flex;
+}
+@media screen and (max-width:567px) {
+    .novbar{
+        padding: 15px 10px;
+        justify-content: space-between;
+        z-index: 20;
+        background-color: white;
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        height: 490px;
+        /* display: none; */
+        background-color: white;
+        top: 10%;
+        left: -100%;
+        padding: 40px 10px 10px 10px;
+        z-index: -1;
+        transition: 1s;
+    }
+    ul li{
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+    }
+    .internet{
+        margin-top: 40px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .btn1{
+        width: 100%;
+        height: 60px;
+        background-color: #AE7B3C;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        color: white;
+        margin-top: 30px;
+    }
+    .menu{
+        font-size: 40px;
+    }
+    .section1{
+        position: relative;
+        height: 490px;
+        padding: 10px 10px 0 10px;
+        z-index: -2;
+    }
+    .text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1 h1{
+        width: 296px;
+        height: 68px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 120%;
+        margin-top: 60px;
+        /* margin-left: 10%; */
+        text-align: center;
+        text-transform: uppercase;
+        /* color: white; */
+    }
+    .section1 p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 145%;
+        /* color: white; */
+        margin-top: 28px;
+
+    }
+    .btn2{
+        width: 300px;
+        height: 60px;
+        background-color: #AE7B3C;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        color: white;
+        margin-top: 30px;
+    }
+    .section2{
+
+    }
+}
+@media screen and(max-width:992px) {
+    
+}
